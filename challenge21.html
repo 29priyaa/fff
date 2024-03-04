@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Management System</title>
+  <link rel="stylesheet" href="challenge21.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Learning Management System</h1>
+    <div id="loginForm">
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+    <div id="dashboard" style="display: none;">
+      <h2>Welcome <span id="usernameDisplay"></span>!</h2>
+      <h3>Your Courses:</h3>
+      <ul id="coursesList"></ul>
+    </div>
+  </div>
+
+  <script src="challenge21.js"></script>
+</body>
+</html>
